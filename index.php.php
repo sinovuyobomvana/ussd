@@ -5,6 +5,9 @@ $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text        = $_POST["text"];
 
+
+echo "asdsad";
+
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
     $response  = "CON What would you want to check \n";
