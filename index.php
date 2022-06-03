@@ -8,8 +8,7 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Welcome to the TBC service\n";
-     $response  = "CON Select your action from the menu below:\n\n";
+    $response  = "CON Welcome to the TBC service\nSelect your action from the menu below:\n\n";
     $response .= "1. Start trip\n";
     $response .= "2. Check running total\n";
     $response .= "3. End trip";
@@ -26,8 +25,7 @@ if ($text == "") {
     // This is a terminal request. Note how we start the response with END
 //     $response = "END Your phone number is ".$phoneNumber;
     
-    $response = "CON Your trip has been started.\n";
-    $response = "CON Select your action from menu below:\n";
+    $response = "CON Your trip has been started.\nSelect your action from menu below:\n\n";
     $response .= "1. Check running total";
     $response .= "2. End";
 
