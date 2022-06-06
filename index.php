@@ -21,7 +21,7 @@ if ($text == "") {
     $response .= "0. Back";
 
 }
-else if ($text == "1")
+else if ($text == "1*1")
 {
     $response = "CON Your trip has been started.\nSelect your action from menu below:\n\n";
     $response .= "1. Check running total";
