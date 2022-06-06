@@ -42,7 +42,7 @@ if ($text == "") {
         }
     }
 
-} else if ($text == "1") {
+} else if ($text == "1000") {
     // Business logic for first level response
     $response = "CON Select your trip details:\n\n";
     $response .= "1. Njoli - Greenacres\n";
