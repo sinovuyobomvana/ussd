@@ -28,7 +28,7 @@ else if ($text == "1")
     $response .= "2. End";
 
 } 
-else if($text == "1*1")
+else if($text == "1")
 {
     $response = "CON Your TBC running balance for Njoli - Greenacres as at 04/05/2022 16:32 is R160.00 2 outstanding payments.\n\n";
     $response .= "1. End trip\n";
