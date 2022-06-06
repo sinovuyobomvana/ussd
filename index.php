@@ -42,10 +42,10 @@ if ($text == "") {
         }
     }
 }
-else 
-{
-    $response = "Something went wrong...Please try again later!"
-}
+// else 
+// {
+//     $response = "Something"
+// }
 
 // } else if ($text == "1000") {
 //     // Business logic for first level response
