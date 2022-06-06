@@ -37,7 +37,7 @@ else if($text == "1*1*1")
 
    
 }
-else if($text == "1")
+else if($text == "2")
 {
     $response .= "You have successfully ended your trip. You have been chosen to play CASH OF VIKINGS. Dial *147*6#. R3/day. Cell Cyy";
 }
