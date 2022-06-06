@@ -24,11 +24,11 @@ if ($text == "") {
 else if ($text == "1*1")
 {
     $response = "CON Your trip has been started.\nSelect your action from menu below:\n\n";
-    $response .= "1. Check running total";
+    $response .= "1. Check running total\n";
     $response .= "2. End";
 
 } 
-else if($text == "1")
+else if($text == "1*1*1")
 {
     $response = "CON Your TBC running balance for Njoli - Greenacres as at 04/05/2022 16:32 is R160.00 2 outstanding payments.\n\n";
     $response .= "1. End trip\n";
@@ -37,7 +37,7 @@ else if($text == "1")
 
    
 }
-else if($text == "1")
+else if($text == "1*1*1*1")
 {
     $response .= "You have successfully ended your trip. You have been chosen to play CASH OF VIKINGS. Dial *147*6#. R3/day. Cell Cyy";
 }
